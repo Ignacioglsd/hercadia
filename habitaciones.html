@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <a href="inicio.html" class="logo"><img src="assests/imagenes/Hercadia Logo horizontal v3.png" alt="Logo" class="logo-desktop"></a>
+            <a href="inicio.html" class="logo-mobil"></a><img src="assests/imagenes/Hercadia Logo V3.png" alt="Logo" class="logo-mobile"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <a href="#" class="language-option" data-lang="es">
+                <img src="assests/imagenes/espana.png" alt="Español" width="30">
+            </a>
+            <a href="#" class="language-option" data-lang="en">
+                <img src="assests/imagenes/reino-unido.png" alt="English" width="30">
+            </a>
+        </div>
+    </header>
+
+    
+    <section class="rooms-section">
+        <h2>Nuestras Habitaciones</h2>
+        <p>Explora nuestras habitaciones diseñadas para ofrecerte la máxima comodidad y estilo.</p>
+        <div class="rooms-grid">
+            <div class="room-card" data-room="lavapies">
+                <img src="assests/imagenes/Lavapies.jpg" alt="Lavapiés">
+                <div class="room-overlay">
+                    <h3>Lavapiés</h3>
+                    <p>Comodidad y elegancia en un espacio acogedor.</p>
+                </div>
+            </div>
+            <div class="room-card" data-room="Chamberí">
+                <img src="assests/imagenes/quevedo.jpg" alt="Chamberí">
+                <div class="room-overlay">
+                    <h3>Chamberí</h3>
+                    <p>Amplio espacio con vistas espectaculares.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+    </section>
+
+  
+    <section id="room-details" class="room-details-section">
+        <div id="lavapies-details" class="room-details" style="display: none;">
+            <h3>Habitaciones en Lavapiés</h3>
+            <p>Descubre nuestras habitaciones en el corazón de Lavapiés.</p>
+            <div class="room-images">
+                <a href="#" class="room-image-link">
+                    <img src="assests/imagenes/pexels-pixabay-262048.jpg" alt="Habitación 1">
+                    <div class="image-overlay">
+                        <p>Habitación 1 - Lavapiés</p>
+                    </div>
+                </a>
+                <a href="#" class="room-image-link">
+                    <img src="assests/imagenes/pexels-pixabay-271618.jpg" alt="Habitación 2">
+                    <div class="image-overlay">
+                        <p>Habitación 2 - Lavapiés</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="Chamberí-details" class="room-details" style="display: none;">
+            <h3>Habitaciones en Chamberí</h3>
+            <p>Disfruta de nuestras habitaciones con vistas únicas en Chamberí.</p>
+        <div class="room-images">
+            <a href="#" class="room-image-link">
+                <img src="assests/imagenes/pexels-pixabay-164595.jpg" alt="Habitación 1">
+                <div class="image-overlay">
+                    <p>Habitación 1 - Chamberí</p>
+                </div>
+            </a>
+            <a href="#" class="room-image-link">
+                <img src="assests/imagenes/pexels-andrew-3201763.jpg" alt="Habitación 2">
+                <div class="image-overlay">
+                    <p>Habitación 2 - Chamberí</p>
+                </div>
+            </a>
+            <a href="#" class="room-image-link">
+                <img src="assests/imagenes/pexels-andrew-3201763.jpg" alt="Habitación 2">
+                <div class="image-overlay">
+                    <p>Habitación 2 - Chamberí</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="discover-button-container" class="button-container" style="display: none;">
+        <a href="catalogo.html" class="cool-button discover-more-button">Descubre Todas Nuestras Habitaciones</a>
+    </div>
+    </section>
+
+    
+    <section class="map-section">
+        <h2>¿Dónde Estamos?</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.123456789012!2d-3.702345678901234!3d40.416775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI1JzA0LjQiTiAzwrA0MicyMC4wIlc!5e0!3m2!1ses!2ses!4v1234567890123!5m2!1ses!2ses" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+    </section>
+
+    
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p>Dirección: Calle Falsa 123, Madrid</p>
+                <p>Teléfono: +34 123 456 789</p>
+            </div>
+            <div class="social-links">
+                <a href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com/@tu_usuario" target="_blank" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://wa.me/34123456789" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Hercadia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/34123456789" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="js/habitaciones.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

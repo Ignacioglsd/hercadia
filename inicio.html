@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Habitaciones</title>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/inicio.css"">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <a href="inicio.html" class="logo"><img src="assests/imagenes/Hercadia Logo horizontal v3.png" alt="Logo" class="logo-desktop"></a>
+            <a href="inicio.html" class="logo-mobil"></a><img src="assests/imagenes/Hercadia Logo V3.png" alt="Logo" class="logo-mobile"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <a href="#" class="language-option" data-lang="es">
+                <img src="assests/imagenes/espana.png" alt="Español" width="30">
+            </a>
+            <a href="#" class="language-option" data-lang="en">
+                <img src="assests/imagenes/reino-unido.png" alt="English" width="30">
+            </a>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <video autoplay muted loop class="hero-video">
+            <source src="assests/videos/1918465-uhd_3840_2160_24fps.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+        <div class="hero-content">
+            <h1>Alquiler de habitaciones en el corazón de Madrid</h1>
+            <p>¡Listas para ti! Habitaciones cómodas y totalmente preparadas para que vivas la ciudada a tu manera.</p>
+        </div>
+    </section>
+    
+    <section class="two-column-section">
+        <div class="column text-column">
+            <h2>Tu Habitación en el Corazón de Madrid</h2>
+            <p>
+                En <strong>Hercadia</strong>, nos respaldan años de experiencia y un profundo conocimiento de lo que significa sentirse como en casa. Sabemos que cada detalle cuenta, y por eso nos dedicamos a crear hogares que no solo brindan tranquilidad y confort, sino que también inspiran un verdadero sentido de pertenencia. Nuestro compromiso es ofrecerte un espacio donde te sientas cómodo, seguro y, sobre todo, feliz.
+            </p>
+            <p>
+                Madrid es una ciudad llena de vida, cultura y oportunidades, y estamos orgullosos de estar ubicados en su corazón. Desde aquí, podrás descubrir todo lo que esta increíble ciudad tiene para ofrecer: desde sus icónicos monumentos y museos hasta sus vibrantes barrios y gastronomía. Queremos que te enfoques en disfrutar de cada momento, mientras nosotros nos encargamos de que tu estancia sea perfecta.
+            </p>
+            <div class="button-container">
+                <a href="#" class="cool-button">Descubre Nuestras habitaciones</a>
+            </div>
+        </div>
+        <div class="column image-column">
+            <div class="image-grid">
+                <img src="assests/imagenes/pexels-taryn-elliott-9565784.jpg" alt="Habitación 1">
+                <img src="assests/imagenes/pexels-andrew-3201763.jpg" alt="Habitación 2">
+                <img src="assests/imagenes/pexels-pixabay-164595.jpg" alt="Habitación 3">
+                <!--<img src="assests/imagenes/pexels-taryn-elliott-9565784.jpg" alt="Habitación 4">-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Habitaciones -->
+    <section class="rooms-section">
+        <div class="rooms-content">
+            <h2>Descubre Nuestras Habitaciones</h2>
+            <p>
+            Explora nuestras habitaciones diseñadas para ofrecerte la máxima comodidad y estilo. Cada una de ellas está pensada para que te sientas como en casa, con amenities de lujo y un diseño cuidadosamente seleccionado.
+            </p>
+            <div class="rooms-grid">
+                <a href="habitaciones.html" class="room-card">
+                    <img src="assests/imagenes/Lavapies.jpg" alt="Habitación 1">
+                    <div class="room-overlay">
+                    <h3>Lavapiés</h3>
+                    <p>Comodidad y elegancia en un espacio acogedor.</p>
+                    </div>
+                </a>
+                <a href="habitaciones.html" class="room-card">
+                    <img src="assests/imagenes/quevedo.jpg" alt="Habitación 2">
+                    <div class="room-overlay">
+                        <h3>Chamberí</h3>
+                        <p>Amplio espacio con vistas espectaculares.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Reseñas -->
+    <section class="reviews-section">
+        <h2>Reseñas de Nuestros Clientes</h2>
+        <div class="google-reviews">
+            <!-- Widget de Google Reviews -->
+            <iframe src="https://search.google.com/local/writereview?placeid=TU_PLACE_ID_DE_GOOGLE" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>¿Necesitas información?</h2>
+                <p>
+                Estamos aquí para ayudarte. Si tienes alguna pregunta o necesitas más detalles sobre nuestros servicios, no dudes en contactarnos. Nuestro equipo estará encantado de atenderte.
+                </p>
+                <p>
+                ¡Esperamos saber de ti pronto!
+                </p>
+            </div>
+            <div class="contact-form">
+                <form class="modern-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Contacto</h3>
+                <p>Dirección: Calle Ignassi Primero 1, Madrid</p>
+                <p>Teléfono: +34 669 02 62 70</p>
+            </div>
+            <div class="social-links">
+                <a href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com/@tu_usuario" target="_blank" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=34669026270&text&type=phone_number&app_absent=0" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Hercadia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/34669026270" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script src="js/header.js"></script>
+</body>
+</html>
