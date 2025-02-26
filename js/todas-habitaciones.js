@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         disponibilidad: document.getElementById('disponibilidad'),
         tipo: document.getElementById('tipo'),
         bano: document.getElementById('bano'),
-        exterior: document.getElementById('exterior'),  // Added missing filters
+        exterior: document.getElementById('exterior'),  
         balcon: document.getElementById('balcon')
     };
 
