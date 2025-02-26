@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Obtener el parámetro de la URL
+    
     const urlParams = new URLSearchParams(window.location.search);
     const habitacionId = urlParams.get('habitacion');
 
-    // Datos de las habitaciones (puedes ampliarlo con más detalles)
+    
     const roomsData = {
         lavapies: {
             title: "Habitación 1 - Lavapiés",
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 "assests/videos/quevedo-video1.mp4"
             ]
         },
-        // Añade más habitaciones aquí
+        // más habitaciones aquí
     };
 
     // Cargar los detalles de la habitación
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             roomImagesContainer.appendChild(videoElement);
         });
     } else {
-        // Si no se encuentra la habitación, redirigir a la página de habitaciones
+        // Si no encuentra que vuelva 
         window.location.href = 'habitaciones.html';
     }
 });
