@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             this.querySelector('.room-overlay').style.opacity = '0';
             activeCard = this;
 
-            // Show/hide room details
+           
             roomDetails.forEach(detail => {
                 if (detail === targetDetail) {
                     detail.style.display = 'block';
@@ -43,10 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
 
-            // Show the discover button
+           
             discoverButtonContainer.style.display = 'block';
 
-            // Update map
+            
             if (maps[roomId]) {
                 mapContainer.innerHTML = `
                     <iframe src="${maps[roomId]}" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 mapTitle.textContent = `Las habitaciones en ${roomId.charAt(0).toUpperCase() + roomId.slice(1)} están:`;
             }
 
-            // Smooth scroll to details
+            
             if (targetDetail) {
                 const elementPosition = targetDetail.getBoundingClientRect().top + window.scrollY;
                 const offsetPosition = elementPosition - headerOffset - 20;
