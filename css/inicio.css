@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family:  'Questrial', sans-serif, sans-serif;
-    color: #00260f; /* Color principal */
+    color: #00260f; 
     background-color: #f4f4f4;
 }
 
@@ -13,28 +13,28 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00260f; /* Color principal */
-    padding: 10px 40px; /* Más padding horizontal */
+    background-color: #00260f; 
+    padding: 10px 40px; 
     z-index: 1000;
-    transition: padding 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
-    will-change: transform; /* Optimiza el renderizado */
-    min-height: 120px; /* Alto mínimo */
-    backdrop-filter: blur(5px); /* Desenfoque ligero */
+    transition: padding 0.3s ease, box-shadow 0.3s ease; 
+    will-change: transform; 
+    min-height: 120px; 
+    backdrop-filter: blur(5px); 
 }
 
 .sticky-header.scrolled {
-    padding: 8px 40px; /* Más pequeño al hacer scroll */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra al hacer scroll */
+    padding: 8px 40px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Logo para escritorio */
 .sticky-header .logo img {
-    height: 160px; /* Logo más grande */
-    transition: height 0.3s ease; /* Transición suave */
+    height: 160px; 
+    transition: height 0.3s ease; 
 }
 
 .sticky-header.scrolled .logo img {
-    height: 100px; /* Más pequeño al hacer scroll */
+    height: 100px; 
 }
 
 /* Menú de Navegación */
@@ -43,47 +43,47 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px; /* Espacio entre enlaces */
+    gap: 20px; 
 }
 
 .sticky-header nav ul li {
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-left: 0; 
 }
 
 .sticky-header nav ul li a {
-    color: #dbd7a8; /* Color secundario */
+    color: #dbd7a8; 
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2rem; /* Letras más grandes */
-    transition: color 0.3s ease; /* Transición suave */
+    font-size: 1.2rem; 
+    transition: color 0.3s ease; 
 }
 
 .sticky-header nav ul li a:hover {
-    color: #fff; /* Cambia de color al pasar el mouse */
+    color: #fff; 
 }
 
 /* Selector de Idioma */
 .language-switcher {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espacio entre las banderas */
+    gap: 10px; 
 }
 
 .language-option img {
-    width: 30px; /* Tamaño de las banderas */
-    border-radius: 50%; /* Forma circular */
+    width: 30px; 
+    border-radius: 50%; /
     border: 2px solid transparent;
-    transition: border-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+    transition: border-color 0.3s ease, transform 0.3s ease; 
 }
 
 .language-option img:hover {
-    border-color: #dbd7a8; /* Color secundario */
-    transform: scale(1.1); /* Efecto de agrandamiento */
+    border-color: #dbd7a8; 
+    transform: scale(1.1); 
 }
 
 /* Logo para escritorio */
 .logo-mobile {
-    display: none; /* Oculta el logo móvil por defecto */
+    display: none;
 }
 
 
@@ -127,7 +127,7 @@ body {
 
 /* Sección de Contacto */
 .contact-section {
-    background-color: #dbd7a8; /* Color secundario (beige) */
+    background-color: #dbd7a8; 
     padding: 50px 20px;
 }
 
@@ -136,59 +136,59 @@ body {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 40px; /* Espacio entre las columnas */
+    gap: 40px; 
 }
 
 .contact-info {
     flex: 1;
     padding: 20px;
-    text-align: center; /* Centra el texto */
+    text-align: center; 
 }
 
 .contact-info h2 {
     font-size: 2.5rem;
-    color: #00260f; /* Color principal (verde oscuro) */
+    color: #00260f; 
     margin-bottom: 20px;
 }
 
 .contact-info p {
     font-size: 1.2rem;
-    color: #00260f; /* Color principal (verde oscuro) */
+    color: #00260f; 
     line-height: 1.6;
 }
 
 .contact-form {
     flex: 1;
-    background-color: #fff; /* Fondo blanco */
+    background-color: #fff; 
     padding: 20px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    text-align: center; /* Centra el texto del formulario */
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
 }
 
 /* Formulario Moderno */
 .modern-form .form-group {
     margin-bottom: 20px;
-    text-align: center; /* Centra el texto de los labels */
+    text-align: center; 
 }
 
 .modern-form label {
     display: block;
     font-size: 1rem;
-    color: #00260f; /* Color principal (verde oscuro) */
+    color: #00260f; 
     margin-bottom: 5px;
 }
 
 .modern-form input,
 .modern-form textarea {
-    width: 80%; /* Ancho reducido para mejor centrado */
+    width: 80%; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    transition: border-color 0.3s ease; /* Transición suave */
-    margin: 0 auto; /* Centra los inputs y textarea */
-    display: block; /* Asegura que el margen auto funcione */
+    transition: border-color 0.3s ease; 
+    margin: 0 auto; 
+    display: block; 
 }
 
 .modern-form input:focus,
@@ -222,13 +222,13 @@ body {
 /* Sección de Dos Columnas */
 .two-column-section {
     display: flex;
-    background-color: #00260f; /* Color verde del header */
+    background-color: #00260f; 
     padding: 50px 20px;
-    color: #dbd7a8; /* Color del texto */
+    color: #dbd7a8; 
 }
 
 .column {
-    flex: 1; /* Ambas columnas ocupan el mismo espacio */
+    flex: 1; 
     padding: 0 20px;
 }
 
@@ -249,51 +249,51 @@ body {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    grid-template-rows: repeat(2, 1fr); /* Dos filas */
-    gap: 10px; /* Espacio entre imágenes */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 10px; 
     width: 100%;
 }
 
 .image-grid img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta las imágenes sin distorsionar */
-    border-radius: 10px; /* Bordes redondeados */
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 /* Ajustar proporciones de las imágenes */
 .image-grid img:nth-child(1) {
-    grid-row: span 2; /* Ocupa dos filas */
+    grid-row: span 2; 
 }
 
 .image-grid img:nth-child(2) {
-    grid-column: span 1; /* Ocupa una columna */
+    grid-column: span 1; 
 }
 
 .image-grid img:nth-child(3) {
-    grid-column: span 1; /* Ocupa una columna */
+    grid-column: span 1; 
 }
 
 .image-grid img:nth-child(4) {
-    grid-column: span 1; /* Ocupa una columna */
+    grid-column: span 1; 
 }
 
 .modern-form button:hover {
-    background-color: #004225; /* Color más oscuro */
+    background-color: #004225; 
 }
 /* Estilos para la columna de texto */
 .two-column-section .text-column {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente */
-    text-align: center; /* Centra el texto */
+    align-items: center; 
+    text-align: center; 
 }
 
 /* Estilos para los párrafos */
 .two-column-section .text-column p {
-    max-width: 600px; /* Ancho máximo para mejorar la legibilidad */
-    margin: 0 auto 20px; /* Centra los párrafos y añade espacio entre ellos */
+    max-width: 600px; 
+    margin: 0 auto 20px; 
 }
 
 /* boton */
@@ -324,7 +324,7 @@ body {
 
 /*boton*/
 .discover-more-button {
-    border: 2px solid #00260f; /* Green border (adjust color to match your theme) */
+    border: 2px solid #00260f; 
 }
 
 
@@ -336,7 +336,7 @@ body {
 
 /* Sección de Habitaciones */
 .rooms-section {
-    background-color: #dbd7a8; /* Color secundario */
+    background-color: #dbd7a8; 
     padding: 50px 20px;
     text-align: center;
 }
@@ -348,27 +348,27 @@ body {
 
 .rooms-content h2 {
     font-size: 2.5rem;
-    color: #00260f; /* Color principal */
+    color: #00260f; 
     margin-bottom: 20px;
 }
 
 .rooms-content p {
     font-size: 1.2rem;
-    color: #00260f; /* Color principal */
+    color: #00260f;
     max-width: 800px;
     margin: 0 auto 40px;
 }
 
 .rooms-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 20px; /* Espacio entre las imágenes */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
 }
 
 .room-card {
     position: relative;
     overflow: hidden;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     text-decoration: none;
     display: block;
 }
@@ -377,12 +377,12 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease, filter 0.3s ease; /* Transición suave */
+    transition: transform 0.3s ease, filter 0.3s ease; 
 }
 
 .room-card:hover img {
-    transform: scale(1.05); /* Efecto de zoom */
-    filter: brightness(0.7); /* Oscurece la imagen */
+    transform: scale(1.05); 
+    filter: brightness(0.7); 
 }
 
 .room-overlay {
@@ -395,16 +395,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 38, 15, 0.6); /* Fondo oscuro semi-transparente */
-    color: #dbd7a8; /* Color secundario */
+    background-color: rgba(0, 38, 15, 0.6); 
+    color: #dbd7a8; 
     text-align: center;
     padding: 20px;
     opacity: 1;
-    transition: opacity 0.3s ease; /* Transición suave */
+    transition: opacity 0.3s ease; 
 }
 
 .room-card:hover .room-overlay {
-    opacity: 1; /* Asegura que el overlay sea visible */
+    opacity: 1; 
 }
 
 .room-overlay h3 {
@@ -418,31 +418,31 @@ body {
 
 /* Sección de Reseñas */
 .reviews-section {
-    background-color: #00260f; /* Color principal (verde oscuro) */
+    background-color: #00260f; 
     padding: 50px 20px;
     text-align: center;
 }
 
 .reviews-section h2 {
     font-size: 2.5rem;
-    color: #dbd7a8; /* Color secundario (beige) */
+    color: #dbd7a8; 
     margin-bottom: 20px;
 }
 
 .google-reviews {
     max-width: 800px;
     margin: 0 auto;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px; 
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    background-color: #fff; /* Fondo blanco para el widget */
-    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    padding: 20px;
 }
 
 /* Footer */
 .footer-section {
-    background-color: #00260f; /* Color principal */
-    color: #dbd7a8; /* Color secundario */
+    background-color: #00260f; 
+    color: #dbd7a8; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -473,19 +473,19 @@ body {
 }
 
 .social-links a {
-    color: #dbd7a8; /* Color secundario */
+    color: #dbd7a8; 
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #fff; /* Color al pasar el mouse */
+    color: #fff; 
 }
 
 .footer-bottom {
     margin-top: 20px;
     font-size: 0.9rem;
-    border-top: 1px solid rgba(219, 215, 168, 0.2); /* Línea divisoria */
+    border-top: 1px solid rgba(219, 215, 168, 0.2); 
     padding-top: 10px;
 }
 
@@ -495,33 +495,33 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #25d366; /* Color de WhatsApp */
+    background-color: #25d366; 
     color: #fff;
     width: 60px;
     height: 60px;
-    border-radius: 50%; /* Forma circular */
+    border-radius: 50%;
     text-align: center;
     font-size: 30px;
     line-height: 60px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .whatsapp-float:hover {
-    background-color: #128c7e; /* Color más oscuro al pasar el mouse */
-    transform: scale(1.1); /* Efecto de agrandamiento */
+    background-color: #128c7e; 
+    transform: scale(1.1); 
 }
 
 /* Sección de Habitaciones Desplegables */
 .room-details-section {
-    background-color: #dbd7a8; /* Color secundario */
+    background-color: #dbd7a8; 
     padding: 50px 20px;
     text-align: center;
 }
 
 .room-details {
-    display: none; /* Oculto por defecto */
+    display: none; 
 }
 
 .room-images {
@@ -539,7 +539,7 @@ body {
 }
 
 .room-image-link img {
-    width: 300px; /* Tamaño fijo para las imágenes */
+    width: 300px; 
     height: 200px;
     object-fit: cover;
     transition: filter 0.3s ease;
@@ -551,8 +551,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 38, 15, 0.6); /* Fondo oscuro semi-transparente */
-    color: #dbd7a8; /* Color secundario */
+    background-color: rgba(0, 38, 15, 0.6); 
+    color: #dbd7a8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -561,13 +561,13 @@ body {
 }
 
 .room-image-link:hover .image-overlay {
-    opacity: 0.8; /* Efecto de hover */
+    opacity: 0.8; 
 }
 
 /*seccion mapa*/
 .map-section{
-    background-color: #00260f; /* Color principal */
-    color: #dbd7a8; /* Color secundario */
+    background-color: #00260f; 
+    color: #dbd7a8; 
     padding: 40px 20px;
     text-align: center;
 }
@@ -591,153 +591,153 @@ body {
 /* Optimización para móviles */
 @media (max-width: 768px) {
     .sticky-header {
-        padding: 8px 10px; /* Menos padding en móviles */
+        padding: 8px 10px; 
     }
 
     .sticky-header .logo img {
-        height: 60px; /* Logo más pequeño en móviles */
+        height: 60px; 
     }
 
     .sticky-header.scrolled .logo img {
-        height: 50px; /* Más pequeño al hacer scroll */
+        height: 50px; 
     }
 
     .sticky-header nav ul {
-        gap: 10px; /* Menos espacio entre enlaces */
+        gap: 10px; 
     }
 
     .sticky-header nav ul li a {
-        font-size: 1rem; /* Letras más pequeñas en móviles */
+        font-size: 1rem; 
     }
 
     .language-option img {
-        width: 25px; /* Banderas más pequeñas en móviles */
+        width: 25px; 
     }
     .language-switcher {
-        gap: 5px; /* Menos espacio en móviles */
+        gap: 5px; 
     }
     .logo-desktop {
-        display: none; /* Oculta el logo de escritorio en móviles */
+        display: none; 
     }
 
     .logo-mobile {
-        display: block; /* Muestra el logo móvil */
-        height: 50px; /* Tamaño más pequeño */
+        display: block; 
+        height: 50px; 
     }
     .hero-content h1 {
-        font-size: 2rem; /* Título más pequeño en móviles */
+        font-size: 2rem; 
     }
 
     .hero-content p {
-        font-size: 1rem; /* Texto más pequeño en móviles */
+        font-size: 1rem; 
     }
 
     .modern-form {
-        padding: 15px; /* Menos padding en el formulario */
+        padding: 15px; 
     }
 
     .two-column-section {
-        flex-direction: column; /* Apila las columnas verticalmente */
-        padding: 30px 10px; /* Menos padding en móviles */
+        flex-direction: column; 
+        padding: 30px 10px; 
     }
 
     .column {
-        padding: 0; /* Elimina el padding lateral */
+        padding: 0; 
     }
 
     .text-column h2 {
-        font-size: 2rem; /* Título más pequeño */
+        font-size: 2rem; 
         margin-bottom: 15px;
     }
 
     .text-column p {
-        font-size: 1rem; /* Texto más pequeño */
+        font-size: 1rem; 
     }
 
     .image-grid {
-        grid-template-columns: 1fr; /* Una columna en móviles */
-        grid-template-rows: auto; /* Altura automática */
-        gap: 5px; /* Menos espacio entre imágenes */
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto; 
+        gap: 5px; 
     }
 
     .image-grid img {
-        border-radius: 5px; /* Bordes menos redondeados */
+        border-radius: 5px; 
     }
 
     /* Ajustar proporciones de las imágenes en móviles */
     .image-grid img:nth-child(1) {
-        grid-row: span 1; /* Ocupa una fila */
+        grid-row: span 1; 
     }
 
     .image-grid img:nth-child(2),
     .image-grid img:nth-child(3),
     .image-grid img:nth-child(4) {
-        grid-column: span 1; /* Ocupa una columna */
+        grid-column: span 1; 
     }
 
     .two-column-section .text-column h2 {
-        font-size: 2rem; /* Título más pequeño en móviles */
+        font-size: 2rem; 
     }
 
     .two-column-section .text-column p {
-        font-size: 1rem; /* Texto más pequeño en móviles */
+        font-size: 1rem; 
     }
 
     .cool-button {
-        font-size: 0.9rem; /* Texto más pequeño en móviles */
-        padding: 10px 20px; /* Padding más pequeño */
+        font-size: 0.9rem; 
+        padding: 10px 20px; 
     }
 
 
     .rooms-content h2 {
-        font-size: 2rem; /* Título más pequeño en móviles */
+        font-size: 2rem; 
     }
 
     .rooms-content p {
-        font-size: 1rem; /* Texto más pequeño en móviles */
+        font-size: 1rem; 
     }
 
     .rooms-grid {
-        grid-template-columns: 1fr; /* Una columna en móviles */
+        grid-template-columns: 1fr; 
     }
 
     .room-overlay h3 {
-        font-size: 1.5rem; /* Título más pequeño en móviles */
+        font-size: 1.5rem; 
     }
 
     .room-overlay p {
-        font-size: 0.9rem; /* Texto más pequeño en móviles */
+        font-size: 0.9rem; 
     }
 
     .contact-content {
-        flex-direction: column; /* Apila las columnas en móviles */
+        flex-direction: column; 
     }
 
     .contact-info h2 {
-        font-size: 2rem; /* Título más pequeño en móviles */
+        font-size: 2rem; 
     }
 
     .contact-info p {
-        font-size: 1rem; /* Texto más pequeño en móviles */
+        font-size: 1rem; 
     }
 
     .modern-form input,
     .modern-form textarea {
-        font-size: 0.9rem; /* Texto más pequeño en móviles */
+        font-size: 0.9rem; 
     }
 
     .modern-form button {
-        font-size: 0.9rem; /* Texto más pequeño en móviles */
-        padding: 10px 20px; /* Padding más pequeño */
+        font-size: 0.9rem; 
+        padding: 10px 20px; 
     }
 
 
     .reviews-section h2 {
-        font-size: 2rem; /* Título más pequeño en móviles */
+        font-size: 2rem; 
     }
 
     .google-reviews {
-        height: 300px; /* Altura más pequeña en móviles */
+        height: 300px; 
     }
 
     .footer-content {
